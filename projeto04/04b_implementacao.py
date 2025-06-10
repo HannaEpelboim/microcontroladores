@@ -11,8 +11,8 @@ system("killall arecord")
 
 
 # parâmetros iniciais do Telegram
-chave = "7653728106:AAHK6RlEQz9KMoynZ2-901NbIbkPcDiBILs"
-id_da_conversa = "7158599693"
+chave = "COLOQUE A CHAVE"
+id_da_conversa = "COLOQUE O ID"
 endereco_base = "https://api.telegram.org/bot" + chave
 
 
