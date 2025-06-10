@@ -1,0 +1,16 @@
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<h3> Funções </h3>
+<ul>
+<li><a href="/power">Ligar/desligar</a></li>
+<li><a href="/aumentaVolume">Volume +</a></li>
+<li><a href="/abaixaVolume">Volume -</a></li>
+<li><a href="/powerOff/5">Dormir em 5 segundos</a></li>
+</ul>
+
+<h3>Canais</h3>
+<ul>
+    {% for e in mylist %}
+        <li><a href='/canal/{{e["código"]}}'>{{e["nome"]}}</a></li>
+    {% endfor %}
+
+</ul>
