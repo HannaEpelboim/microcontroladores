@@ -7,8 +7,8 @@ from gpiozero import Button, LED
 lcd = Adafruit_CharLCD(2, 3, 4, 5, 6, 7, 16, 2)
 
 # parâmetros iniciais do Telegram
-chave = "7653728106:AAHK6RlEQz9KMoynZ2-901NbIbkPcDiBILs"
-id_da_conversa = "7158599693"
+chave = 'COLOQUE A CHAVE'
+id_da_conversa = "COLOQUE O ID"
 endereco_base = "https://api.telegram.org/bot" + chave
 
 
