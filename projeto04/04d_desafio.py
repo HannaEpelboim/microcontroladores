@@ -23,8 +23,8 @@ sensor.threshold_distance = 0.1
 
 
 # parâmetros iniciais do Telegram
-chave = "7590149102:AAHx4KIa4Gxbchf621Xe6ngUw5Ouia_OTpQ"
-id_da_conversa = "7744653498"
+chave = "CHAVE"
+id_da_conversa = "ID"
 endereco_base = "https://api.telegram.org/bot" + chave
 
 
